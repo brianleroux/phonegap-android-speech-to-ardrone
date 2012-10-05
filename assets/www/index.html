@@ -6,22 +6,16 @@ body {
     border:none;
     margin:50px;
 }
-a {
-    margin-top:200px;
-    font-size:2em;
-    border:5px solid black;
-    background:blue;
-    color:white;
-    border-radius:10px;
-    padding:50px;
-} 
+a {}
 </style>
 <body>
 
-<a>CMD</a>
+<a><img src=pizza.png width=300></a>
+
 <script src=cordova-2.0.0.js></script>
 <script src=power.js></script>
 <script src=speech.js></script>
+<script src=request.js></script>
 <script>
 
 
@@ -37,12 +31,23 @@ document.addEventListener('deviceready', function() {
                 if (respObj) {
                     var matches = respObj.speechMatches.speechMatch
                     // console.log(matches)
-                    // alert(matches[0]) 
-                    var cmd = matches[0]
-                    var url = 'http://192.168.43.18/command?' + cmd + '=true'
+                    alert(matches[0]) 
+                    var cmd = matches[0].replace(' ', '')
+                    var url = 'http://ve.5bpbxlsy.vesrv.com:5000/command?' + cmd + '=true'
                     var xhr = new XMLHttpRequest();
                     xhr.open('GET', url, true)
-                    xhr.send(null)
+                    xhr.onreadystatechange = function() {
+                        console.log(xhr.status)
+                    }
+                    xhr.send()
+                    /*
+                    alert('attempting ' + url)
+                    request(url, function(e, r, body){
+                        alert(e)
+                        alert(r.statusCode)
+                        alert(body)
+                    })
+                    */
                 }        
             }
         }

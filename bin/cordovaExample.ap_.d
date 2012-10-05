@@ -23,6 +23,8 @@
 /Users/brianl/Desktop/gruntdrone/assets/www \
 /Users/brianl/Desktop/gruntdrone/assets/www/cordova-2.0.0.js \
 /Users/brianl/Desktop/gruntdrone/assets/www/index.html \
+/Users/brianl/Desktop/gruntdrone/assets/www/pizza.png \
 /Users/brianl/Desktop/gruntdrone/assets/www/power.js \
+/Users/brianl/Desktop/gruntdrone/assets/www/request.js \
 /Users/brianl/Desktop/gruntdrone/assets/www/speech.js \
 /Users/brianl/Desktop/gruntdrone/bin/AndroidManifest.xml \
