@@ -1,0 +1,23 @@
+/Users/brianl/Desktop/gruntdrone/bin/classes.dex : \
+/Users/brianl/Desktop/gruntdrone/bin/classes/com/pixelphones/BuildConfig.class \
+/Users/brianl/Desktop/gruntdrone/bin/classes/com/pixelphones/PixelPhone.class \
+/Users/brianl/Desktop/gruntdrone/bin/classes/com/pixelphones/R$attr.class \
+/Users/brianl/Desktop/gruntdrone/bin/classes/com/pixelphones/R$drawable.class \
+/Users/brianl/Desktop/gruntdrone/bin/classes/com/pixelphones/R$layout.class \
+/Users/brianl/Desktop/gruntdrone/bin/classes/com/pixelphones/R$string.class \
+/Users/brianl/Desktop/gruntdrone/bin/classes/com/pixelphones/R$xml.class \
+/Users/brianl/Desktop/gruntdrone/bin/classes/com/pixelphones/R.class \
+/Users/brianl/Desktop/gruntdrone/bin/classes/com/urbtek/phonegap/SpeechRecognizer.class \
+/Users/brianl/Desktop/gruntdrone/bin/classes/com/urbtek/SpeechRecognizer.class \
+/Users/brianl/Desktop/gruntdrone/bin/classes/io/brian/BuildConfig.class \
+/Users/brianl/Desktop/gruntdrone/bin/classes/io/brian/GruntDrone.class \
+/Users/brianl/Desktop/gruntdrone/bin/classes/io/brian/R$attr.class \
+/Users/brianl/Desktop/gruntdrone/bin/classes/io/brian/R$drawable.class \
+/Users/brianl/Desktop/gruntdrone/bin/classes/io/brian/R$layout.class \
+/Users/brianl/Desktop/gruntdrone/bin/classes/io/brian/R$string.class \
+/Users/brianl/Desktop/gruntdrone/bin/classes/io/brian/R$xml.class \
+/Users/brianl/Desktop/gruntdrone/bin/classes/io/brian/R.class \
+/Users/brianl/Desktop/gruntdrone/bin/classes/org/apache/cordova/example/cordovaExample.class \
+/Users/brianl/Desktop/gruntdrone/bin/classes/org/apache/cordova/plugin/PowerManagement.class \
+/Users/brianl/Repo/android-sdk-macosx/tools/support/annotations.jar \
+/Users/brianl/Desktop/gruntdrone/libs/cordova-2.0.0.jar \

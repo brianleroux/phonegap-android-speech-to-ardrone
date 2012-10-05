@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head><meta name=viewport content=width=device-width></head>
+<style type="text/css" media="screen">
+body {
+    border:none;
+    margin:50px;
+}
+a {
+    margin-top:200px;
+    font-size:2em;
+    border:5px solid black;
+    background:blue;
+    color:white;
+    border-radius:10px;
+    padding:50px;
+} 
+</style>
+<body>
+
+<a>CMD</a>
+<script src=cordova-2.0.0.js></script>
+<script src=power.js></script>
+<script src=speech.js></script>
+<script>
+
+
+document.addEventListener('deviceready', function() {
+// begin grunting
+    console.log('we are grunting')
+    //
+    function recognize() {
+        function win(result) {
+            var respObj, requestCode, matches;
+            if (result) {
+                respObj = JSON.parse(result);
+                if (respObj) {
+                    var matches = respObj.speechMatches.speechMatch
+                    // console.log(matches)
+                    // alert(matches[0]) 
+                    var cmd = matches[0]
+                    var url = 'http://192.168.43.18/command?' + cmd + '=true'
+                    var xhr = new XMLHttpRequest();
+                    xhr.open('GET', url, true)
+                    xhr.send(null)
+                }        
+            }
+        }
+        //
+        function fail(message) { console.log("speechFail: " + message) }
+        //
+        function start() {
+            var sr = window.plugins.speechrecognizer
+            sr.startRecognize(win, fail, 1234, 5, 'Please say a command', 'en-US')
+        } 
+        //
+        window.plugins.speechrecognizer.init(start, fail)
+    }
+    
+    document.querySelector('a').addEventListener('touchstart', recognize, true)
+
+// end of grunting    
+}, true)
+</script>		
+</body>
+</html>

@@ -1,0 +1,3 @@
+# view AndroidManifest.xml #generated:38
+-keep class io.brian.GruntDrone { <init>(...); }
+

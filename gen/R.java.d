@@ -1,0 +1,23 @@
+/Users/brianl/Desktop/gruntdrone/gen/io/brian/R.java \
+ : /Users/brianl/Desktop/gruntdrone/res/drawable/icon.png \
+/Users/brianl/Desktop/gruntdrone/res/drawable-hdpi/ic_launcher.png \
+/Users/brianl/Desktop/gruntdrone/res/drawable-hdpi/icon.png \
+/Users/brianl/Desktop/gruntdrone/res/drawable-ldpi/ic_launcher.png \
+/Users/brianl/Desktop/gruntdrone/res/drawable-ldpi/icon.png \
+/Users/brianl/Desktop/gruntdrone/res/drawable-mdpi/ic_launcher.png \
+/Users/brianl/Desktop/gruntdrone/res/drawable-mdpi/icon.png \
+/Users/brianl/Desktop/gruntdrone/res/drawable-xhdpi/ic_launcher.png \
+/Users/brianl/Desktop/gruntdrone/res/drawable-xhdpi/icon.png \
+/Users/brianl/Desktop/gruntdrone/res/layout/main.xml \
+/Users/brianl/Desktop/gruntdrone/res/values/strings.xml \
+/Users/brianl/Desktop/gruntdrone/res/xml/config.xml \
+/Users/brianl/Desktop/gruntdrone/bin/res/drawable/icon.png \
+/Users/brianl/Desktop/gruntdrone/bin/res/drawable-hdpi/ic_launcher.png \
+/Users/brianl/Desktop/gruntdrone/bin/res/drawable-hdpi/icon.png \
+/Users/brianl/Desktop/gruntdrone/bin/res/drawable-ldpi/ic_launcher.png \
+/Users/brianl/Desktop/gruntdrone/bin/res/drawable-ldpi/icon.png \
+/Users/brianl/Desktop/gruntdrone/bin/res/drawable-mdpi/ic_launcher.png \
+/Users/brianl/Desktop/gruntdrone/bin/res/drawable-mdpi/icon.png \
+/Users/brianl/Desktop/gruntdrone/bin/res/drawable-xhdpi/ic_launcher.png \
+/Users/brianl/Desktop/gruntdrone/bin/res/drawable-xhdpi/icon.png \
+/Users/brianl/Desktop/gruntdrone/bin/AndroidManifest.xml \
